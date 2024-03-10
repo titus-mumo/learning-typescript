@@ -33,4 +33,14 @@ function getCustomer(id) {
 }
 let customer = getCustomer(1);
 console.log((_a = customer === null || customer === void 0 ? void 0 : customer.birthday) === null || _a === void 0 ? void 0 : _a.getFullYear());
+let log = null;
+log === null || log === void 0 ? void 0 : log('a');
+function getValue(myVal) {
+    if (myVal > 5)
+        return true;
+    return false;
+}
+const getHello = (s) => {
+    return s;
+};
 //# sourceMappingURL=objects.js.map
