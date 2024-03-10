@@ -86,3 +86,13 @@ console.log(customer?.birthday?.getFullYear())
 //Optional call
 let log: any = null;
 log?.('a');
+
+function getValue(myVal: number): boolean{
+    if(myVal> 5)
+        return true
+    return false
+}
+
+const getHello = (s:string):string => {
+    return s
+}
